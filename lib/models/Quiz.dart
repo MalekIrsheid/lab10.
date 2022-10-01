@@ -44,7 +44,7 @@ class _QuizState extends State<Quiz> {
                 icon: Icon(Icons.question_answer),
               ),
             ]),
-            title: Text("Quiz App"),
+            title: Text("Flutter Quiz "),
           ),
           body: TabBarView(
             clipBehavior: Clip.antiAlias,
