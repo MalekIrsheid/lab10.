@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import 'question.dart';
@@ -46,6 +47,7 @@ class _QuizState extends State<Quiz> {
             title: Text("Quiz App"),
           ),
           body: TabBarView(
+            clipBehavior: Clip.antiAlias,
             children: [
               Qus(
                   correctAnswer: "Flutter is an open-source UI toolkit",
